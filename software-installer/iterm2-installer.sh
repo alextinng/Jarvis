@@ -12,8 +12,11 @@ function init() {
 
     if [ x"$homebrew_version" = x ]
         then
+            echo "start to download script from github..."
+            wget https://raw.githubusercontent.com/alextinng/Jarvis/installation-0.0.1/software-installer/homebrew-installer.sh
             echo "start to install homebrew..."
             sh ./homebrew_installer.sh
+            rm -rf homebrew-installer.sh
             echo "completed to install homebrew!"
     fi
 }
