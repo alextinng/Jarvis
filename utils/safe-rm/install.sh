@@ -1,5 +1,9 @@
 #!/bin/bash
 #
+# Script for installing safe-rm on Mac.
+#
+# Copyright (C) Alex Ding <alextinng@hotmail.com>
+#
 # Install safe-rm to your home directory!
 
 user=$(whoami)

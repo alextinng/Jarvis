@@ -1,8 +1,8 @@
 #!/bin/sh -e
-
-#    Run this script to install iterm2 in your Mac.
 #
-#    any problem or advice: alextinng@hotmail.com
+# Script for installing iterm2 on Mac.
+#
+# Copyright (C) Alex Ding <alextinng@hotmail.com>
 
 function init() {
     # check if homebrew is installed.

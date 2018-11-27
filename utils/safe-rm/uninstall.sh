@@ -1,9 +1,9 @@
 #!/bin/bash
 #
-# Remove safe rm.
-# OS: Mac
-# Author: Alex
-
+# Script for uninstalling safe-rm on Mac.
+#
+# Copyright (C) Alex Ding <alextinng@hotmail.com>
+#
 user=$(whoami)
 PREFIX="~"
 
