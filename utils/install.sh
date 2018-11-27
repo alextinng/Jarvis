@@ -1,6 +1,9 @@
 #!/bin/bash
+#
+# Install safe-rm to your home directory!
 
-PREFIX="/bin"
+user=$(whoami)
+PREFIX="/Users/$user"
 
 cp bin/rm.sh $PREFIX/safe-rm
 chmod 755 $PREFIX/safe-rm

@@ -1,6 +1,11 @@
 #!/bin/bash
+#
+# Remove safe rm.
+# OS: Mac
+# Author: Alex
 
-PREFIX="/bin"
+user=$(whoami)
+PREFIX="~"
 
 rm $PREFIX/safe-rm
 echo "Please remove \"alias rm='$PREFIX/safe-rm'\" from your ~/.bashrc script"

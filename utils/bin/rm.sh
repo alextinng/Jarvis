@@ -1,4 +1,9 @@
 #!/bin/bash
+# 
+# This script is a replacement of bash rm command. It works like trash rather
+# than rm, all file deleted can be found in Trash folder.
+# OS: Mac
+# Author: Alex
 
 # You could modify these environment variables to change the default constants
 # Default to ~/.Trash on Mac, ~/.local/share/Trash/files on Linux.
